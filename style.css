@@ -1,13 +1,13 @@
 *{
   margin: 0 0 0 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
     font-size: 15pt;
     
 }
 header{
-  box-sizing: border-box;
   position: fixed;
   width: 100%;
   text-align: center;
@@ -30,13 +30,11 @@ h1{
   cursor: pointer;
 }
 #div1{
-  box-sizing: border-box;
   position: fixed;
   top: 0;
   width: 100%;
 }
 #div2{
-  box-sizing: border-box;
   margin-top: 65px;
 }
 p{
@@ -47,5 +45,11 @@ p::first-letter{
   font-size: 30px;
   font-family: serif;
 }
-
-
+img{
+  width: 100%;
+}
+.img-container{
+  width: 33.33%;
+  float: left;
+  padding: 5px;
+}
