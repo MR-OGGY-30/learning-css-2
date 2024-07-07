@@ -4,16 +4,19 @@
 }
 body {
     font-size: 15pt;
+    
 }
 header{
   box-sizing: border-box;
   position: fixed;
   width: 100%;
-  /* border-bottom: 1px solid black; */
   text-align: center;
   padding: 10px;
   margin: 0 0 10px 0;
   box-shadow: 0 2px 10px black;
+  background-color: white;
+  overflow: auto;
+  /* height: 60px; */
 }
 h1{
   color: white;
@@ -26,3 +29,23 @@ h1{
   border-radius: 5px;
   cursor: pointer;
 }
+#div1{
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#div2{
+  box-sizing: border-box;
+  margin-top: 65px;
+}
+p{
+  padding: 10px;
+}
+p::first-letter{
+  color: red;
+  font-size: 30px;
+  font-family: serif;
+}
+
+
